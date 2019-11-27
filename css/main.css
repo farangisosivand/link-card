@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #f0eee8;
-  font: Georgia, serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -30,43 +30,33 @@ hr {
   margin: 0 0 1rem;
 }
 
-dd dt {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-h2 {
+.link-card h2 {
   text-align: left;
   font-size: 1.5rem;
   color: #512200;
   font-weight: bold;
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 p {
   text-align: left;
-  font-size: 1.125rem;
-  color: #785439;
+  font-size: 1rem;
+  color: #512200;
 }
 
 dl {
   text-align: left;
   font-size: 1rem;
-  color: #785439;
+  color: #512200;
 }
 
-.link-card dt {
-  display: inline-block;
-  margin: 0;
-}
-
-.link-card dt {
+.link-card dd, dt {
   display: inline-block;
   margin: 0;
 }
 
 .btn {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
   border-style: solid;
   border-color: #785439;
   border-radius: 8px;
@@ -76,4 +66,8 @@ dl {
   font-weight: bold;
   padding: .4em .75em .5em;
   margin: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
 }
